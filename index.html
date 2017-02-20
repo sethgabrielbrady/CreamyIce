@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+
+  <head>
+    <meta charset='utf-8'>
+    <title>My Ice Cream Shop</title>
+    <link href='style.css' rel='stylesheet'>
+  </head>
+
+  <body>
+
+      <header>
+        <img src='ice-cream.jpg' alt="A stylish picture of icecream">
+        <!----<h1>C<span class="smllr-h">REAMY </span>I<span class="smllr-h">CE</span></h1>----->
+        <h1>C</h1><h2>REAMY </h2><h1>I</h1><h2>CE</h1>
+
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Order Online</a></li>
+          <li><a href="#">History of Ice Cream</a></li>
+       </ul>
+      </nav`>
+
+   <main>
+       <h2>Welcome to our creamery!</h2>
+       <p>Ice cream has a long and varied past. You can read more about that in our "<a href="#">History of Ice Cream</a>"
+         section linked above. You can read more about flavors and such below.</p>
+
+        <h3>Our History</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper euismod magna, a lacinia augue dapibus nec.
+            Fusce nec sollicitudin felis, ut vehicula erat.</p>
+        <p>Praesent at odio a urna vehicula faucibus. Maecenas ornare leo a commodo vehicula. Aenean id consequat arcu,
+            posuere finibus lectus. Suspendisse vehicula quis libero eget mattis. In at. Mauris pharetra sed
+            quam eu iaculis. Nullam at lacus lobortis, convallis metus a. Nullam sed nisl vitae felis
+            ultrices vestibulum sit amet at nulla.</p>
+
+
+        <p>Duis volutpat lacus et dolor placerat volutpat. Duis lectus risus, tristique id convallis eu,
+           suscipit non sapien. Sed sit amet arcu lacinia, pellentesque nisl vel, dictum est.
+           Morbi non fermentum turpis. Curabitur laoreet odio ut euismod scelerisque. Cras et blandit est. Ut rutrum neque non imperdiet gravida.
+           Duis rutrum, orci nec accumsan eleifend, lorem arcu luctus nisi, eu pellentesque diam sem at ipsum.
+        </p>
+
+
+        <h3>Flavors</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Calories Per Serving</th>
+            <th>Price Per Pint</th>
+            <th>Sugar Free?</th>
+          </tr>
+        </thead>
+          <tr class="choco" onclick="color1()" id="choco">
+            <td>Choco-Razzle</td>
+            <td>450</td>
+            <td>$4.50</td>
+            <td>Nope</td>
+          </tr>
+          <tr class="pback vanilla" onclick="color2()" id="vanilla">
+            <td>Milli Vanilla</td>
+            <td>390</td>
+            <td>$3.70</td>
+            <td>Nope</td>
+          </tr>
+          <tr class="fruity" onclick="color3()" id="fruity">
+            <td>Fruitylicious</td>
+            <td>350</td>
+            <td>$4.20</td>
+            <td>Yep</td>
+          </tr>
+          <tr class="pback pistachio" onclick="color4()" id="pistachio">
+            <td>Brash Pistache</td>
+            <td>370</td>
+            <td>$4.90</td>
+            <td>Yep</td>
+          </tr>
+          <tr class="caramel" onclick="color5()" id="caramel">
+            <td>Caramelluminary</td>
+            <td>400</td>
+            <td>$4.90</td>
+            <td>Nope</td>
+          </tr>
+        </table>
+   </main>
+
+   <footer>
+     <p>&copy; 2016 Fancy Pants Ice Creamery, Inc.</p>
+   </footer>
+        <script src="script.js"></script>
+ </body>
+
+</html>

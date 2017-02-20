@@ -1,0 +1,143 @@
+
+
+body{
+  margin:auto;
+}
+
+
+/**********HEADER************/
+header {
+  margin:0;
+  padding-top:0;
+  background-color: rgb(221, 231, 240);
+  text-align: center;
+  padding-bottom:2em;
+
+}
+
+
+header img {
+  max-width:100%;
+  margin:0;
+  padding-bottom:2em;
+
+}
+
+header h1 {
+  font-style:italic;
+  letter-spacing: .25em;
+  display:inline;
+
+}
+
+header h2 {
+  font-style:italic;
+  letter-spacing: .25em;
+  display:inline;
+
+}
+/**********NAV************/
+
+nav {
+  background-color: rgb(250, 232, 207);
+  height:40px;
+  box-shadow: 0 6px 12px -6px rgb(163, 163, 163);
+}
+
+nav ul {
+  height:40px;
+  list-style:none;
+  padding-left:15px;
+  padding-top:12px;
+  padding-bottom:10px;
+  margin:0;
+}
+
+nav li{
+  display: inline;
+  padding: 12px 13px 10px 12px;
+}
+
+nav li:hover{ /*  hover is a pseudo class*/
+  background-color: rgb(225, 165, 83);
+}
+
+nav li a{
+  color:rgb(0,0,0);
+}
+
+
+/**********MAIN************/
+
+main  p,
+main h2,
+main h3{
+  padding-left: 25px;
+}
+
+main p{
+  width:95%;
+}
+
+
+/********TABLE********/
+
+table {
+  border-collapse: collapse;
+  width: auto;
+  border: 1px solid rgb(125, 125, 125);
+  margin-bottom:20px;
+  margin-left:20px;
+  font-weight: lighter;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+.pback{
+  background-color:rgb(148, 133, 185);
+}
+
+.choco:hover{
+  background-color: rgb(134,68,20);
+}
+
+.vanilla:hover{
+  background-color: rgb(252,251,227);
+}
+
+.fruity:hover{
+  background-color: rgb(121,17,61);
+}
+
+.pistachio:hover{
+  background-color: rgb(156,185,46);
+}
+.caramel:hover{
+  background-color: rgb(181,133,31);
+}
+
+thead{
+  border: 1px solid rgb(125, 125, 125);
+  font-size: 1em;
+}
+
+th:first-child{
+  text-align:center;
+}
+
+
+/**********FOOTER************/
+
+footer{
+  height:80px;
+  border-top:1px solid rgb(0, 0, 0);
+}
+
+footer p{
+  float:right;
+  padding-right:15px;
+  color: rgb(163, 163, 163);
+}
